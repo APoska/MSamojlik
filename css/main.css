@@ -1,9 +1,186 @@
+/*
+ * Color Palette
+ *
+ * Dark: 01110F
+ * Medium: 023D37
+ * Light: 3A8A82
+ * DarkGrey: 879090
+ * Grey: B8C5C4
+ * White: F1F2F2
+ */
+
 html,
 body {
     width: 100%;
     height: 100%;
 }
 
-body > * {
+body {
+  font-size: 16px;
+  background: #F1F2F2;
+  color: #01110F;
+}
 
+hr {
+  width: 15%;
+  border-color: #B8C5C4;
+}
+
+.text-primary {
+  color: #3A8A82;
+}
+
+.bg-primary {
+  color: #F1F2F2;
+  background-color: #023D37;
+}
+
+.navbar-custom {
+  background-color: #023d37 !important;
+  color: #F1f1f2 !important;
+  border-bottom: 1px solid #B8C5C4;
+}
+
+.navbar-custom a {
+  color: #F1F1f2;
+}
+
+.navbar-brand {
+  font-size: 23px;
+}
+
+.navbar-brand:before {
+  content: "";
+  background: url('/img/logo.png') no-repeat;
+  width: 21px;
+  height: 21px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+nav h1 {
+  margin: 0;
+}
+
+header {
+  color: #F1f2f2;
+  width: 100%;
+  height: 85%;
+  overflow: hidden;
+}
+
+.header-content {
+  padding: 5em 1em;
+  height: 100%;
+  clear: both;
+  overflow: hidden;
+}
+
+.header-content-inner {
+  width: 50%;
+  margin-left: 3rem;
+  float: left;
+  clear: none;
+}
+
+.header-content h2 {
+  color: #01110f;
+  margin-top: 4em;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.header-content p {
+  color: #879090;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.btn-primary {
+  background: #3A8A82;
+  color: #F1F2F2;
+  border-color: #3A8A82;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #023D37 !important;
+  border-color: #023D37 !important;
+}
+
+
+.phone {
+  width: 30em;
+  float: left;
+  clear: none;
+  background: url('/img/phone.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 25em;
+  overflow: hidden;
+}
+
+.phone-apps ul {
+  display: block;
+  padding: 0;
+  margin: 0 5em;
+  margin-top: 12em;
+}
+
+.phone-apps li {
+  text-align: center;
+  color: #B8C5C4;
+  display: block;
+  margin:0;
+  padding: 0;
+}
+
+.phone-apps li a {
+  display: block;
+  margin: 0 auto;
+  margin-top: 1.5em;
+}
+
+
+#slowko:before {
+  content: "";
+  background: url('/img/slowko.png') no-repeat;
+  width: 160px;
+  height: 160px;
+  background-size: contain;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+
+.btn-xxl {
+  font-size: 20px;
+  background-color: #98cb00;
+  border-color: #98cb00;
+}
+
+section {
+  height: 85%;
+  padding: 3.5em 0;
+}
+
+.section-heading {
+  color: #01110f;
+}
+
+.text-muted {
+  color: #879090;
+}
+
+.service-box {
+  margin-top: 6em;
+}
+
+section > h3 {
+  color: #01110f;
+}
+
+#about h2 {
+  color: #F1F2F2;
 }
